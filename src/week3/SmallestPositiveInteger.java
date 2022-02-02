@@ -30,9 +30,10 @@ public class SmallestPositiveInteger {
 	
 	public static void main(String[] args) {
 		SmallestPositiveInteger obj = new SmallestPositiveInteger();
+		SmallestPositiveInteger object = new SmallestPositiveInteger();
 		int res = obj.findSmallest("1689");
-		int result = obj.findSmallest("689345");
+		int results = object.findSmallest("689345");
 		System.out.println(res);
-		System.out.println(result);
+		System.out.println(results);
 	}
 }
