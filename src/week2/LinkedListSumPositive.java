@@ -129,25 +129,21 @@ public class LinkedListSumPositive{
 		List arr[]= new List[k];
 		
 		
-		arr[0] = new List(1);
-		arr[0].next = new List(3);
-		arr[0].next.next = new List(-5);
-		arr[0].next.next.next = new List(7);
+		arr[0] = new List(5);
+		arr[0].next = new List(7);
+		arr[0].next.next = new List(8);
+		arr[0].next.next.next = new List(9);
 		
-		arr[1] = new List(2);
-		arr[1].next = new List(4);
-		arr[1].next.next = new List(6);
-		arr[1].next.next.next = new List(8);
+		arr[1] = new List(1);
+		arr[1].next = new List(2);
+		arr[1].next.next = new List(3);
+		arr[1].next.next.next = new List(6);
 		
-		arr[2] = new List(9);
+		arr[2] = new List(-5);
 		arr[2].next = new List(-10);
-		arr[2].next.next = new List(-8);
+		arr[2].next.next = new List(10);
+		arr[2].next.next.next = new List(11);
 		
-		arr[3] = new List(-1);
-		arr[3].next = new List(-3);
-		arr[3].next.next = new List(5);
-		arr[3].next.next.next = new List(10);
-		arr[3].next.next.next.next = new List(-4);
 		
 		
 		arr[0]=merge(arr, k);
