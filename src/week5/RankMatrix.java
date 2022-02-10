@@ -152,7 +152,7 @@ public class RankMatrix {
 	
 	public static void main(String[] args) {
 		
-		int arr[][] = new int[][]{{20,-21,14},{-19,4,19},{22,-47,24},{-19,4,19}};
+		int arr[][] = new int[][]{{2,3},{4,5}};
 		
 		int sorted[] = sortMartix(arr);
 		
