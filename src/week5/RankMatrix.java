@@ -100,8 +100,7 @@ public class RankMatrix {
 					//this will prevent the max rank from increasing and it will only increase once and stop incresing
 					// this helps us in giving the same rank to the similar values in the same row and column
 					if(count==0) {		 
-
-
+						 count++;
 						 max++;
 					 }
 				 }
@@ -152,7 +151,7 @@ public class RankMatrix {
 	
 	public static void main(String[] args) {
 		
-		int arr[][] = new int[][]{{2,3},{4,5}};
+		int arr[][] = new int[][]{{2,3},{3,4}};
 		
 		int sorted[] = sortMartix(arr);
 		
